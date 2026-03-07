@@ -28,5 +28,5 @@ cc = "*"
 
 [profile.release]
 strip = true
-lto = "thin"
+lto = true
 panic = "abort"
